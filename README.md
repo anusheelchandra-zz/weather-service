@@ -25,7 +25,7 @@ of recorded weather history with average pressure and average temperature calcul
 
 ### Build and Run
 ```
-One can run the **WeatherHandlerApplication.java** from the IDE or execute mvn spring-boot:run 
+One can run the WeatherServiceApplication.java from the IDE or execute mvn spring-boot:run 
 on the terminal inside the project folder.
 
 Else:
