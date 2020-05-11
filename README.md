@@ -45,7 +45,7 @@ One can simply send a request to endpoint (http://localhost:8080/current?locatio
 One can simply send a request to endpoint (http://localhost:8080/history?location=London) and will receive historic weather.
 
 
-###[Tech Stack](#tech-stack)
+### [Tech Stack](#tech-stack)
 Java 11, Spring Boot, Maven, Lombok, Mockito, Junit5, AssertJ, Spring Data JPA and H2 database for persistence.
 This microservice has been built with IntelliJ IDE and formatted with google-java-format.
 
