@@ -51,7 +51,7 @@ This microservice has been built with IntelliJ IDE and formatted with google-jav
 
 ###[Screen-shot](#screen-shot)
 
-![alt text](https://github.com/anusheelchandra/weather-service/src/test/resources/ScreenShot1.png)
-![alt text](https://github.com/anusheelchandra/weather-service/src/test/resources/ScreenShot2.png)
-![alt text](https://github.com/anusheelchandra/weather-service/src/test/resources/ScreenShot3.png)
-![alt text](https://github.com/anusheelchandra/weather-service/src/test/resources/ScreenShot4.png)
+![alt text](https://github.com/anusheelchandra/weather-service/blob/master/src/test/resources/ScreenShot1.png)
+![alt text](https://github.com/anusheelchandra/weather-service/blob/master/src/test/resources/ScreenShot2.png)
+![alt text](https://github.com/anusheelchandra/weather-service/blob/master/src/test/resources/ScreenShot3.png)
+![alt text](https://github.com/anusheelchandra/weather-service/blob/master/src/test/resources/ScreenShot4.png)
