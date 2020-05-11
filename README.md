@@ -49,7 +49,7 @@ One can simply send a request to endpoint (http://localhost:8080/history?locatio
 Java 11, Spring Boot, Maven, Lombok, Mockito, Junit5, AssertJ, Spring Data JPA and H2 database for persistence.
 This microservice has been built with IntelliJ IDE and formatted with google-java-format.
 
-###[Screen-shot](#screen-shot)
+### [Screen-shot](#screen-shot)
 
 ![alt text](https://github.com/anusheelchandra/weather-service/blob/master/src/test/resources/ScreenShot1.png)
 ![alt text](https://github.com/anusheelchandra/weather-service/blob/master/src/test/resources/ScreenShot2.png)
