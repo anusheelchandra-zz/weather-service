@@ -29,6 +29,7 @@ public class WeatherHandler {
 
   private CurrentWeatherResponse getCurrentWeather(String location) {
     WeatherRequest weatherRequest = requestFactory.createWeatherRequest(location);
+    validateRequest();
     Optional<WeatherResponse> weatherResponse = weatherApiService.getCurrentWeather(weatherRequest);
     return weatherResponse
         .map(ToCurrentWeatherResponseMapper::toCurrentWeatherResponse)
@@ -37,10 +38,15 @@ public class WeatherHandler {
 
   private HistoricWeatherResponse getHistoricWeather(String location) {
     WeatherRequest weatherRequest = requestFactory.createWeatherRequest(location);
+    validateRequest();
     Optional<HistoricWeatherResponse> historicWeatherResponse =
         historicWeatherService.getHistoricWeather(weatherRequest);
     return historicWeatherResponse.orElseGet(
         () ->
             ToHistoricWeatherResponseMapper.toHistoricWeatherResponse(getCurrentWeather(location)));
+  }
+
+  private void validateRequest() {
+    //TODO validate the city name and country code
   }
 }

@@ -23,10 +23,7 @@ public class WeatherController {
 
   private final WeatherHandler weatherHandler;
 
-  @GetMapping(
-      value = "/current",
-      consumes = MediaType.APPLICATION_JSON_VALUE,
-      produces = MediaType.APPLICATION_JSON_VALUE)
+  @GetMapping(value = "/current", produces = MediaType.APPLICATION_JSON_VALUE)
   @ResponseStatus(HttpStatus.OK)
   @ApiOperation(value = "Weather Service to get current weather")
   @ApiResponses(value = {@ApiResponse(code = 200, message = "Current weather returned")})
@@ -35,10 +32,7 @@ public class WeatherController {
         weatherHandler.getCurrentWeatherByLocation(location), HttpStatus.OK);
   }
 
-  @GetMapping(
-      value = "/history",
-      consumes = MediaType.APPLICATION_JSON_VALUE,
-      produces = MediaType.APPLICATION_JSON_VALUE)
+  @GetMapping(value = "/history", produces = MediaType.APPLICATION_JSON_VALUE)
   @ResponseStatus(HttpStatus.OK)
   @ApiOperation(value = "Weather Service to get historic weather")
   @ApiResponses(value = {@ApiResponse(code = 200, message = "Historic weather returned")})
